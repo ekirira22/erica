@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Erica's Apparel</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a2bd1d31bf.js" crossorigin="anonymous"></script>
+  <!-- Slick slider CDn -->
+  <link rel="stylesheet" type="text/css" href="./slick/slick/slick.css" />
+
+  <!--Custom stylesheet-->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!--<header> -->
+
+  <header>
+    <div class="container">
+      <div class="row">
+
+        <!--Site's Title-->
+        <div class="col-md-12 col-12 text-center">
+          <h2 class="my-md-3 site-title">Erica's Apparel Store</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-12 text-right">
+            <h2 class="my-md-3 site-title">Erica's Apparel Store</h2>
+          </div>
+          <div class="col-md-4 col-12 text-right">
+            <p class="my-md-4 header-links">
+              <a href="#" class="px-2">Sign in</a>
+              <a href="#" class="px-1">Create an Account</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light bg-white">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="index.html"> <img src="./assets/download.jpg" alt="LOGO" width="100" height="50"> </a>
+
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"> HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">SHOP</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="./about.html">WHO WE ARE</a>
+                  <a class="dropdown-item" href="./faq.html">FAQ'S</a>
+                  <a class="dropdown-item" href="./careers.html">CAREERS</a>
+                  <a class="dropdown-item" href="./policy.html">RETURN POLICY</a>
+                  <a class="dropdown-item" href="./feedback.html">FEEDBACK</a>
+
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#newsletter">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- search and cart icons -->
+          <div class="navbar-nav">
+            <li class="nav-item border rounded-circle mx-2 search-icon">
+              <i class="fas fa-search p-2" aria-hidden="true"></i>
+            </li>
+            <li class="nav-item border rounded-circle mx-2 cart-icon">
+              <i type="button" onclick="window.location.href = './cart.html'" class="fa fa-shopping-basket p-2" aria-hidden="true"> <span>0</span></i>
+
+            </li>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--end of second nav bar -->
+  </header>
+  <!--end /header>-->
+
+
+  <!-- Main section -->
+  <main>
+    <!-- first slider -->
+    <div class="container-fluid p-0">
+      <div class="site-slider">
+        <div class="slider-one">
+          <div> <img src="./assets/car091.jpg" class="img-fluid" alt="alt1" width="100%"> </div>
+          <div><img src="./assets/car11.jpg" class="img-fluid" alt="alt3" width="100%"></div>
+          <div><img src="./assets/car14.jpg" class="img-fluid" alt="alt3" width="100%"></div>
+          <div><img src="./assets/car15.jpg" class="img-fluid" alt="alt3" width="100%"></div>
+
+        </div>
+        <div class="slider-btn">
+          <span class="prev position-top"> <i class="fas fa-chevron-left"></i> </span>
+          <span class="next position-top right-0"> <i class="fas fa-chevron-right"></i> </span>
+
+        </div>
+      </div>
+    </div>
+    <!-- end of first slider -->
+
+    <!-- Second slider -->
+    <div class="container-fluid" id="shop">
+      <div class="site-slider-two px-md-4">
+        <div class="row slider-two text-center  ">
+          <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="./assets/cat1.jpg" alt="prod1">
+            <span type="button" onclick="window.location.href= '#drsk'" class="border site-btn btn-span">DRESSES/SKIRTS</span>
+          </div>
+          <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="./assets/cat2.jpg" alt="prod1">
+            <span type="button" onclick="window.location.href= '#head'" class="border site-btn btn-span">HEADGEAR</span>
+          </div>
+          <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="./assets/cat3.jpg" alt="prod1">
+            <span type="button" onclick="window.location.href= '#tops'" class="border site-btn btn-span">TOPS</span>
+          </div>
+          <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="./assets/cat4.jpg" alt="prod1">
+            <span type="button" onclick="window.location.href= '#pants'" class="border site-btn btn-span">PANTS</span>
+          </div>
+          <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="./assets/cat5.jpg" alt="prod1">
+            <span type="button" onclick="window.location.href= '#innerwear'" class="border site-btn btn-span">INNERWEAR</span>
+          </div>
+          <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="./assets/cat6.jpg" alt="prod1">
+            <span type="button" onclick="window.location.href= '#acc'" class="border site-btn btn-span">ACCESSORIES</span>
+          </div>
+        </div>
+        <div class="slider-btn">
+          <span class="prev position-top"> <i class="fas fa-chevron-left fa-2x text-secondary"></i> </span>
+          <span class="next position-top right-0"> <i class="fas fa-chevron-right fa-2x text-secondary"></i> </span>
+
+        </div>
+      </div>
+    </div>
+    <!-- End of second slider -->
+
+    <!-- Online catalog -->
+    <div class="container-fluid">
+      <div class="row my-4">
+        <div class="col-md-12 col-12 text-center">
+          <h3 class="font-sofia text-center" id="drsk">DRESSES/SKIRTS</h3>
+          <hr class="style-one">
+        </div>
+      </div>
+      <!-- dresses -->
+      <div class="row my-4 font-gugi">
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress1.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Ankara Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">2500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress2.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Red Lace Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">3500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress3.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Lace Slim Fashion Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">4000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress4.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Floro Print Boho Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">9500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress5.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Shibeva Casual Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">5000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress6.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Star Lace Prom Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">3900KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+      </div>
+      <!-- skirts -->
+      <div class="row my-4 font-gugi">
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/skirt1.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Vintage slit long skirt</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">1500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <!-- <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress2.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Red Lace Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">3500KES</h6>
+          <a class="add-cart" href="#">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress3.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Lace Slim Fashion Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">4000KES</h6>
+          <a class="add-cart" href="#">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress4.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Floro Print Boho Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">9500KES</h6>
+          <a class="add-cart" href="#">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress5.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Shibeva Casual Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">5000KES</h6>
+          <a class="add-cart" href="#">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/dress6.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Star Lace Prom Dress</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">3900KES</h6>
+          <a class="add-cart" href="#">Add Cart</a>
+        </div> -->
+      </div>
+      <!-- Headgear -->
+      <div class="row my-4">
+        <div class="col-md-12 col-12 text-center">
+          <h3 class="font-sofia text-center" id="head">HEADGEAR</h3>
+          <hr class="style-one">
+        </div>
+      </div>
+      <div class="row my-4 font-gugi">
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/head1.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Top Grade Fascinator Hat</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">2100KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/head2.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Winter Hat</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">1500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/head3.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Vintage Woman Fedora Hat</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">2000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/head4.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Women Bucket Hat</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/head5.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Winter Beret Cap</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">1200KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/head6.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Ankara Head Band</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">1900KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+      </div>
+      <!-- tops -->
+      <div class="row my-4">
+        <div class="col-md-12 col-12 text-center">
+          <h3 class="font-sofia text-center" id="tops">TOPS</h3>
+          <hr class="style-one">
+        </div>
+      </div>
+      <div class="row my-4 font-gugi">
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/top1.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Loose Summer Top</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">1100KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/top2.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Lapel Striped Block Shirt</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">4500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/top3.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Model office Shirt</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">2000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/top4.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">African Print Top</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">5500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/top5.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Irregular long sleeved top</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">6300KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/top6.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Fashion hoodies</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">1000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+      </div>
+      <!-- pants -->
+      <div class="row my-4">
+        <div class="col-md-12 col-12 text-center">
+          <h3 class="font-sofia text-center" id="pants">PANTS</h3>
+          <hr class="style-one">
+        </div>
+      </div>
+      <div class="row my-4 font-gugi">
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/pant1.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Wool Fabric Spandex</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">5000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/pant2.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Loose High Waist</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">1500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/pant3.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Gray Casual Trousers</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">2000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/pant4.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Button office Trouser</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">4500KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/pant5.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">Baggy Slacks Pants</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">5800KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+        <div class="col-md-2 pt-md-5 pt-4 image">
+          <img class="images" src="./assets/pant6.jpg" alt="prod1" width="100%"><br><br>
+          <h6 class="text-center">High-slit layered Pallazo</h6>
+          <h6 class="text-center" style="color:var(--primary-color);">3000KES</h6>
+          <a class="add-cart">Add Cart</a>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="newsletter" style="font-family:var(--gugi);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-12 text-center">
+            <h1>Subscribe To Our Newsletter</h1>
+            <div class="form-group text-center">
+              <form>
+                <input type="email" placeholder="Enter Email..."><br><br>
+                <button type="submit" class="btn btn-group btn-info" onclick="alert('An email will be sent to you shortly!'),window.location.href='index.html'">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div style="text-align:center">
+              <h1>CONTACT US</h1>
+              <p><br>
+                Book online or contact us at the phone number below: <br>
+
+                Reservations:+254 (020) 2722451/2/3/4/6/7 <br>
+                Reservation +254 (020)2720545/2728061<br>
+                Reservations Email: book@ericaapparel.com <br><br>
+                General Contacts<br>
+
+                Off Baden Powell Road,
+                Nyeri,Kenya
+
+                Main Number: +254 (020) 2722451/2/3/4/6/7<br>
+                Mobile: +254 (722) 204870<br>
+                Main Fax: +254 (020)2720545/2728061<br><br>
+                Enquiries<br>
+
+                Phone: +254 (020) 2722451<br>
+                Email: enquiries@ericaapparel.com<br><br>
+                Return orders <br>
+
+                Phone:+254 (020) 2722451<br>
+                Email: admin@ericaapparel.com<br><br>
+
+                You can find us on all social media platforms: <br>
+                <i class="fab fa-facebook"> facebook.com/ericaapparels</i> <br>
+                <i class="fab fa-instagram"> instagram.com/ericaapparels</i> <br>
+                <i class="fab fa-twitter"> twitter.com/ericaapparel</i>
+                <p></p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <!-- end of main section -->
+  <footer>
+
+  </footer>
+  <div class="elevator-wrapper"></div>
+
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./slick/slick/slick.min.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+
+</html>

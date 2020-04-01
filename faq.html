@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap FAQ example with tabs and accordions</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a2bd1d31bf.js" crossorigin="anonymous"></script>
+  <!-- Slick slider CDn -->
+  <link rel='stylesheet prefetch' href='https://files.krve.io/f/eyespot.css'>
+  <link rel='stylesheet prefetch' href='https://cdn.cloudcache.dk/materialdesignicons/1.6.50/css/materialdesignicons.min.css'>
+  <link rel="stylesheet" type="text/css" href="./slick/slick/slick.css" />
+
+  <!--Custom stylesheet-->
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  >
+
+
+</head>
+
+<body style="font-family:var(--gugi);">
+  <header>
+    <div class="container">
+
+    </div>
+
+    <div class="container-fluid p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-12 text-right">
+            <h2 class="my-md-3 site-title">Erica's Apparel Store</h2>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="index.html"> <img src="./assets/download.jpg" alt="LOGO" width="100" height="50"> </a>
+
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"> HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">SHOP</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="./about.html">WHO WE ARE</a>
+
+                  <a class="dropdown-item" href="./faq.html">FAQ'S</a>
+                  <a class="dropdown-item" href="./careers.html">CAREERS</a>
+                  <a class="dropdown-item" href="./policy.html">RETURN POLICY</a>
+                  <a class="dropdown-item" href="./feedback.html">FEEDBACK</a>
+
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#newsletter">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- search and cart icons -->
+
+        </nav>
+      </div>
+    </div>
+    <!--end of second nav bar -->
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-12 text-center">
+          <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        </div><br><br>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="list-group help-group">
+            <div class="faq-list list-group nav nav-tabs">
+              <a href="#tab1" class="list-group-item active" role="tab" data-toggle="tab">Frequently Asked Questions</a>
+              <a href="#tab2" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-account"></i> My profile</a>
+              <a href="#tab3" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-account-settings"></i> My account</a>
+              <a href="#tab4" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-star"></i> My favorites</a>
+              <a href="#tab5" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-cart"></i> Checkout</a>
+              <!-- <a href="#tab6" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-heart"></i> Lorem ipsum</a>
+              <a href="#tab7" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-check"></i> Dolor sit amet</a> -->
+            </div>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <div class="tab-content panels-faq">
+            <div class="tab-pane active" id="tab1">
+              <div class="panel-group" id="help-accordion-1">
+                <div class="panel panel-default panel-help">
+                  <a href="#opret-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+                    <div class="panel-heading">
+                      <h2>How do I edit my profile?</h2>
+                    </div>
+                  </a>
+                  <div id="opret-produkt" class="collapse in">
+                    <div class="panel-body">
+                      <p>Sign in with your credentials. If you don't have an account, simply sign up with us.
+                        Click on the Profiles page to update your profile.
+                      </p>
+                      <!-- <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default panel-help">
+                  <a href="#rediger-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+                    <div class="panel-heading">
+                      <h2>How do I upload a new profile picture?</h2>
+                    </div>
+                  </a>
+                  <div id="rediger-produkt" class="collapse">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam
+                        est!
+                      </p>
+                      <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default panel-help">
+                  <a href="#ret-pris" data-toggle="collapse" data-parent="#help-accordion-1">
+                    <div class="panel-heading">
+                      <h2>Can I change my phone number?</h2>
+                    </div>
+                  </a>
+                  <div id="ret-pris" class="collapse">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam
+                        est!
+                      </p>
+                      <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default panel-help">
+                  <a href="#slet-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+                    <div class="panel-heading">
+                      <h2>Where do I change my privacy settings?</h2>
+                    </div>
+                  </a>
+                  <div id="slet-produkt" class="collapse">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam
+                        est!
+                      </p>
+                      <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default panel-help">
+                  <a href="#opret-kampagne" data-toggle="collapse" data-parent="#help-accordion-1">
+                    <div class="panel-heading">
+                      <h2>What is this?</h2>
+                    </div>
+                  </a>
+                  <div id="opret-kampagne" class="collapse">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam
+                        est!
+                      </p>
+                      <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab2">
+              <div class="panel-group" id="help-accordion-2">
+                <div class="panel panel-default panel-help">
+                  <a href="#help-three" data-toggle="collapse" data-parent="#help-accordion-2">
+                    <div class="panel-heading">
+                      <h2>Lorem ipsum?</h2>
+                    </div>
+                  </a>
+                  <div id="help-three" class="collapse in">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam
+                        est!
+                      </p>
+                      <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./slick/slick/slick.min.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
